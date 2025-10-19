@@ -302,3 +302,46 @@ So yes: the “guitar talk box” you referenced is real and was made famous in 
 [2]: https://loudwire.com/bob-heil-talk-box-dead/?utm_source=chatgpt.com "Talk Box Inventor Bob Heil Dead at 83 - Loudwire"
 [3]: https://en.wikipedia.org/wiki/Peter_Frampton?utm_source=chatgpt.com "Peter Frampton"
 [4]: https://www.forbes.com/sites/pamwindsor/2022/05/03/rock-legend-peter-frampton-recalls-steel-guitarist-pete-drake-introducing-him-to-the-talk-box/?utm_source=chatgpt.com "Peter Frampton Recalls Steel Guitarist Pete Drake Introducing Him ..."
+
+---
+
+Yes—functionally similar goal, different mechanism.
+
+**Common goal:**
+Both the **talk box** and the **wah-coder/vocoder** impose *vocal-tract articulation* on an instrument. The output acquires speech-like spectral shaping.
+
+---
+
+### Talk Box (physical filter)
+
+* **Signal path:** guitar → amplifier → driver horn → plastic tube → performer’s mouth → microphone.
+* The **mouth and throat form the acoustic filter**.
+* The musician literally shapes the sound by moving the vocal tract; the mic captures the air-modulated signal.
+* Entirely **acoustic**: the mouth cavity is a real resonant formant filter acting on the instrument’s pressure wave.
+
+---
+
+### Wah-Coder / Vocoder (digital or electronic filter)
+
+* **Signal path:** instrument (carrier) → **electronic filter bank** controlled by analysis of voice (modulator) or envelope.
+* The **formant structure is computed or modeled**, not physically produced.
+* Filters (biquads, SVFs) imitate the mouth’s resonant behavior.
+* Entirely **electronic/digital**; no acoustic coupling.
+
+---
+
+### Relation
+
+| Feature            | Talk Box                       | Wah-Coder / Vocoder            |
+| ------------------ | ------------------------------ | ------------------------------ |
+| Filter type        | Real human vocal tract         | Simulated filter bank          |
+| Modulation         | Mouth shape                    | LPC, FFT, or envelope control  |
+| Coupling           | Acoustic feedback via air tube | Signal-domain mapping          |
+| Latency            | None                           | Few ms (frame analysis)        |
+| Control resolution | Continuous, natural            | Parameterized but programmable |
+
+---
+
+**Summary:**
+A talk box is the *mechanical ancestor* of digital talking-instrument effects.
+A wah-coder performs the *same spectral shaping* mathematically rather than acoustically.
