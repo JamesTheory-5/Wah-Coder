@@ -278,3 +278,27 @@ def one_pole(a, y_prev, x):
 # Outcome
 
 This “wah-coder” yields intelligible vowel articulation like a vocoder, with the **tone** of a resonant multi-wah. It works live if you keep short frames, modest smoothing, and stable filter updates.
+
+# The Peter Frampton Equations
+
+Yes — that’s correct. The device in question is called a Talk Box. It routes the instrument’s sound (often guitar) through a tube into the performer’s mouth, which they shape with their lips/tongue while a microphone picks up the resulting “talking instrument” sound. ([Wikipedia][1])
+
+![Image](https://i.ytimg.com/vi/KcHR-tI0Pj4/hqdefault.jpg)
+
+![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Weezer_-_2022154163929_2022-06-03_Rock_am_Ring_-_Sven_-_1D_X_MK_II_-_1281_-_B70I5835.jpg/250px-Weezer_-_2022154163929_2022-06-03_Rock_am_Ring_-_Sven_-_1D_X_MK_II_-_1281_-_B70I5835.jpg)
+
+![Image](https://i0.wp.com/www.vintageguitar.com/wp-content/uploads/HEIL_01.jpg)
+
+### Key historical facts
+
+* The talk box was used in various forms since the early/mid-20th century (e.g., Alvino Rey, Pete Drake) for “talking guitar” effects. ([Wikipedia][1])
+* The manufacturer/engineer Bob Heil built a high-powered version in the early 1970s; it was used by Joe Walsh and became popular. ([Loudwire][2])
+* Peter Frampton is strongly associated with the effect — his 1976 live album Frampton Comes Alive! features it prominently (songs like “Show Me the Way”, “Do You Feel Like We Do”). ([Wikipedia][3])
+* Frampton credits Pete Drake with introducing him to the talk box and got a Heil model for Christmas in 1974. ([Forbes][4])
+
+So yes: the “guitar talk box” you referenced is real and was made famous in rock partly through Peter Frampton.
+
+[1]: https://en.wikipedia.org/wiki/Talk_box?utm_source=chatgpt.com "Talk box"
+[2]: https://loudwire.com/bob-heil-talk-box-dead/?utm_source=chatgpt.com "Talk Box Inventor Bob Heil Dead at 83 - Loudwire"
+[3]: https://en.wikipedia.org/wiki/Peter_Frampton?utm_source=chatgpt.com "Peter Frampton"
+[4]: https://www.forbes.com/sites/pamwindsor/2022/05/03/rock-legend-peter-frampton-recalls-steel-guitarist-pete-drake-introducing-him-to-the-talk-box/?utm_source=chatgpt.com "Peter Frampton Recalls Steel Guitarist Pete Drake Introducing Him ..."
